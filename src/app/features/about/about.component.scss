@@ -1,0 +1,28 @@
+.about-section {
+  padding: 15rem 0;
+}
+
+.info_card {
+
+  h1 {
+    font-size: 5rem;
+    color: white;
+    letter-spacing: 0.2rem;
+  }
+
+  p {
+    font-size: 2rem;
+    width: 70%;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    color: rgba(91, 96, 125);
+  }
+}
+
+.source-box {
+  margin-left: 5vw;
+
+  & > * {
+    margin-bottom: 1rem;
+  }
+}
