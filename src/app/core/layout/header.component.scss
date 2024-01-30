@@ -2,13 +2,13 @@
   background-color: rgba(88, 111, 255, 0.3);
   height: 6rem;
   width: 100%;
-  position: relative;
+  position: fixed;
 }
 
 .header__group {
   text-align: center;
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 200;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -16,7 +16,7 @@
 }
 
 .header__group > * {
-  color: rgba(255, 74, 87);
+  color: white;
 
   &,
   &:visited,
@@ -32,7 +32,7 @@
 
   &:hover,
   &:active{
-    color: white;
+    color: rgba(255, 74, 87);
   }
 
 }

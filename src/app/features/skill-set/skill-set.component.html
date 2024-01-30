@@ -1,0 +1,13 @@
+<section class="skill-set-section">
+  <div *ngFor="let skillBox of skills" class="row">
+    <div *ngFor="let skill of skillBox" class="col-1-of-3">
+      <div class="skill-card">
+        <img style="height: 7rem"
+             [src]="skill.image"
+             alt="skill logo">
+        <h3>{{skill.name}}</h3>
+        <p>{{skill.description}}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+.skill-set-section {
+  padding: 10rem 0;
+}
+
+.skill-card {
+  background-color: rgba(64,74,138);
+  height: 23rem;
+  padding: 2.5rem;
+
+  h3 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 100;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: rgba(53,57,87);
+  }
+
+  img,
+  svg {
+    margin-bottom: 1rem;
+  }
+
+}
+
+
