@@ -1,3 +1,21 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$profile-primary: mat.define-palette(mat.$indigo-palette);
+$profile-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$profile-warn: mat.define-palette(mat.$red-palette);
+$profile-theme: mat.define-light-theme((
+  color: (
+    primary: $profile-primary,
+    accent: $profile-accent,
+    warn: $profile-warn,
+  )
+));
+
+
+@include mat.all-component-themes($profile-theme);
+
 @import "bootstrap-icons/font/bootstrap-icons";
 
 * {
@@ -127,5 +145,3 @@ $gutter-horizontal: 6rem;
 
 }
 
-//html, body { height: 100%; }
-//body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

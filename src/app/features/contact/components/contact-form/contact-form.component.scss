@@ -1,0 +1,59 @@
+.contact-form {
+  background-color: rgba(64,74,138);
+  padding: 3rem;
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+
+  input,
+  textarea{
+    width: 30vw;
+    border: none;
+    font-size: 2rem;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(53, 57, 87, .5);
+    border-bottom: 3px solid transparent;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+      border-bottom: 3px solid white;;
+    }
+
+    &:focus:invalid {
+      border-bottom: 3px solid rgba(255, 74, 87);;
+    }
+  }
+
+  textarea {
+    max-height: 7vh;
+    max-width: 30vw;
+    height: 7vh;
+  }
+
+  button {
+    margin-top: 2rem;
+    width: 20vw;
+    transition: all .5s;
+  }
+
+  h3 {
+    transform: translateY(21.5rem) translateX(5rem);
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+    position: absolute;
+  }
+
+  &__submit {
+    display: inline-flex;
+
+    mat-progress-spinner {
+      margin: 2rem 0 0 1rem;
+    }
+  }
+}
+
