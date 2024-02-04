@@ -7,6 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { SkillSetComponent } from './features/skill-set/skill-set.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactInfoComponent } from './core/components/contact-info.component';
+import { ExperienceComponent } from './features/expereince/experience.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ContactInfoComponent } from './core/components/contact-info.component';
     HeaderComponent,
     AboutComponent,
     SkillSetComponent,
+    ExperienceComponent,
   ],
   imports: [
     BrowserModule,

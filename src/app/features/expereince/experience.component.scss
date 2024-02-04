@@ -1,0 +1,57 @@
+.experience-section {
+  padding-top: 10%;
+}
+
+.description-box {
+  padding: 0 4rem;
+
+  h1 {
+    text-shadow:  0 0 3rem rgba(255, 74, 87);
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    color: rgba(64,74,138);
+    margin-bottom: 2rem;
+  }
+
+  a {
+    font-size: 1.5rem;
+    margin-right: 4rem;
+  }
+}
+
+.composition-box {
+  position: relative;
+
+  .img-box {
+    position: relative;
+    height: 0;
+    padding-top: calc(360 / 360 * 100%);
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 50rem;
+    border-radius: 1rem;
+    box-shadow: -4.4rem 3.8rem 4.7rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+
+  &__frame {
+    position: absolute;
+    transform: translateY(-200%) translateX(-8%);
+    width: 50rem;
+    height: 25rem;
+    z-index: -1;
+    background-image: linear-gradient(to right bottom, red, white);
+    border-radius: 1rem;
+    clip-path: polygon(0% 0%, 0% 100%, 4% 98%, 4% 7%, 96% 7%, 96% 92%, 0 92%, 0 100%, 100% 100%, 100% 0%);
+  }
+}

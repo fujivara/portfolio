@@ -34,5 +34,8 @@
   &:active{
     color: rgba(255, 74, 87);
   }
+}
 
+.active-route {
+  color: rgba(255, 74, 87) !important;
 }

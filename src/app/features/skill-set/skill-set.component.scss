@@ -1,5 +1,5 @@
 .skill-set-section {
-  padding: 10rem 0;
+  padding: 15rem 0;
 }
 
 .skill-card {
@@ -19,11 +19,20 @@
     color: rgba(53,57,87);
   }
 
-  img,
-  svg {
+  img {
     margin-bottom: 1rem;
+    height: 7rem;
   }
 
+}
+
+.skills-box {
+  margin: 0 10%;
+  display: grid;
+  align-items: center;
+  row-gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
 }
 
 
