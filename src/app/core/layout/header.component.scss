@@ -5,6 +5,7 @@ $header-height: 6rem;
   height: $header-height;
   width: 100%;
   position: fixed;
+  z-index: 1000;
 
   .menu-icon {
     color: rgba(53, 57, 87);
