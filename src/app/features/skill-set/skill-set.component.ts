@@ -8,8 +8,8 @@ import { SkillModel } from './skill.model';
 export class SkillSetComponent {
   skills: SkillModel[] = [
     {
-      name: 'JavaScript/TypeScript',
-      image: 'https://www.recompyle.com/assets/js-ts.jpg',
+      name: 'JS/TS',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
       description: 'I have an excellent knowledge of an ecosystem and datastructures',
     },
     {

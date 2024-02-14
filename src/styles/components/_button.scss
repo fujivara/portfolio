@@ -32,11 +32,11 @@
   }
 
   &--red {
-    background-color: $color-primary-red;
+    background-color: var(--color-primary-red);
     color: white;
 
     &::after {
-      background-color: rgba(255, 74, 87);
+      background-color: var(--color-primary-red);
     }
   }
 

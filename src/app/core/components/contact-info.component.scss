@@ -2,4 +2,28 @@
   margin-left: 5vw;
   display: grid;
   gap: 1rem;
+
+  @media only screen and (max-width: 37.5em) {
+    display: flex;
+    gap: 4rem;
+    width: 26rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+
+  @media only screen and (max-width: 56.25em) and (min-height: 62.5em) {
+    display: flex;
+    gap: 4rem;
+    width: 26rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+
+  @media only screen and (max-width: 68.75em) and (min-height: 68.75em) {
+    display: flex;
+    gap: 4rem;
+    width: 26rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
 }

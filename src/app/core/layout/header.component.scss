@@ -1,8 +1,30 @@
+$header-height: 6rem;
+
 .header {
   background-color: rgba(88, 111, 255, 0.3);
-  height: 6rem;
+  height: $header-height;
   width: 100%;
   position: fixed;
+
+  .menu-icon {
+    color: rgba(53, 57, 87);
+    position: absolute;
+    top: 6%;
+    left: 89vw;
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+
+    @media only screen and (max-width: 31.25em) {
+      opacity: 1;
+      pointer-events: revert;
+      cursor: pointer;
+    }
+
+    @media only screen and (max-width: 20.3em) {
+      left: 84vw;
+    }
+  }
 }
 
 .header__group {
@@ -28,14 +50,59 @@
     padding: 1rem;
     border-radius: 3rem;
     text-decoration: none;
+
+    @media only screen and (max-width: 31.25em) {
+      opacity: 0;
+      pointer-events: none;
+      cursor: default;
+    }
   }
 
   &:hover,
   &:active{
-    color: rgba(255, 74, 87);
+    color: var(--color-primary-red);
   }
 }
 
 .active-route {
-  color: rgba(255, 74, 87) !important;
+  color: var(--color-primary-red) !important;
+}
+
+.sidenav-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .4);
+  margin-top: $header-height;
+
+  mat-sidenav {
+    width: 30rem;
+    background-color: rgba(64, 74, 138);
+
+    .nav-items {
+      width: 100%;
+      display: grid;
+      gap: 2rem;
+      font-size: 4rem;
+
+      a {
+        color: white;
+        &,
+        &:visited,
+        &:link {
+          margin-right: 3rem;
+          cursor: pointer;
+          letter-spacing: .1rem;
+          background: transparent;
+          padding: 1rem;
+          border-radius: 3rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }

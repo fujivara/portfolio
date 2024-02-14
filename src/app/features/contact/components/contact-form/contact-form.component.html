@@ -4,9 +4,8 @@
   <div class="contact-form__submit">
     <button class="btn btn--red"
             type="submit"
-            [disabled]="!contactForm.valid"
-            [ngStyle]="{'transform': message && 'translateX(100%)',
-            'opacity': message && '0'}">Keep in touch</button>
+            [disabled]="!contactForm.valid || message"
+            [ngStyle]="{'opacity': message && '0'}">Keep in touch</button>
     <mat-progress-spinner *ngIf="formSubmitted" mode="indeterminate" [diameter]="40"></mat-progress-spinner>
   </div>
 

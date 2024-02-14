@@ -1,9 +1,44 @@
 .experience-section {
   padding-top: 10%;
+  width: 100vw;
+
+  @media only screen and (max-width: 56.25em) and (min-height: 62.5em) {
+    padding-top: 20% !important;
+  }
+
+  @media only screen and (max-width: 68.75em) and (min-height: 68.75em) {
+    padding-top: 20% !important;
+  }
+
+  @media only screen and (max-width: 75em) {
+    padding-top: 15%;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    padding-top: 20%;
+  }
 }
 
 .description-box {
   padding: 0 4rem;
+
+  @media only screen and (max-width: 56.25em) {
+    padding-right: 0;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    margin: 0 auto;
+    padding: 0;
+    width: 85%;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 68.75em) and (min-height: 62.5em) {
+    margin: 0 auto;
+    padding: 0;
+    width: 85%;
+    text-align: center;
+  }
 
   h1 {
     text-shadow:  0 0 3rem rgba(255, 74, 87);
@@ -11,6 +46,10 @@
     font-size: 4rem;
     color: white;
     margin-bottom: 1rem;
+
+    @media only screen and (max-width: 56.25em) {
+      font-size: 3.5rem;
+    }
   }
 
   p {
@@ -22,36 +61,68 @@
   a {
     font-size: 1.5rem;
     margin-right: 4rem;
+
+    @media only screen and (max-width: 56.25em) {
+      font-size: 0.9rem;
+    }
+  }
+
+  a:last-child {
+    margin-right: 0;
   }
 }
 
-.composition-box {
-  position: relative;
+.img-box {
 
-  .img-box {
-    position: relative;
-    height: 0;
-    padding-top: calc(360 / 360 * 100%);
+  @media only screen and (max-width: 75em) {
+    width: 45rem;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    width: 40rem;
+    padding-top: 4rem;
+  }
+
+  @media only screen and (max-width: 68.75em) and (min-height: 62.5em) {
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    width: 35rem;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 26.5em) {
+    width: 30rem;
   }
 
   img {
-    position: absolute;
-    top: 0;
-    left: 0;
     height: auto;
     width: 50rem;
     border-radius: 1rem;
     box-shadow: -4.4rem 3.8rem 4.7rem 0.5rem rgba(0, 0, 0, 0.5);
-  }
 
-  &__frame {
-    position: absolute;
-    transform: translateY(-200%) translateX(-8%);
-    width: 50rem;
-    height: 25rem;
-    z-index: -1;
-    background-image: linear-gradient(to right bottom, red, white);
-    border-radius: 1rem;
-    clip-path: polygon(0% 0%, 0% 100%, 4% 98%, 4% 7%, 96% 7%, 96% 92%, 0 92%, 0 100%, 100% 100%, 100% 0%);
+    @media only screen and (max-width: 75em) {
+      width: 45rem;
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      width: 40rem
+    }
+
+    @media only screen and (max-width: 68.75em) and (min-height: 62.5em) {
+      box-shadow: none;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      width: 35rem;
+      box-shadow: none;
+    }
+
+    @media only screen and (max-width: 26.5em) {
+      width: 30rem;
+    }
   }
 }
+
