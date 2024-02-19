@@ -1,5 +1,6 @@
 $common-border-radius: 20px;
 $primary-blue-color: rgba(50, 59, 76);
+$primary-grey-color: rgba(115, 115, 115);
 
 .resume-section {
   padding: 10rem 0;
@@ -44,12 +45,13 @@ $primary-blue-color: rgba(50, 59, 76);
 
       p {
         font-size: 1.5rem;
+        color: $primary-grey-color;
       }
     }
 
     .experience-box {
       margin-top: 4rem;
-      color: rgba(115, 115, 115);
+      color: $primary-grey-color;
 
       hr {
         margin: 1rem 0 2rem 0;
@@ -101,7 +103,7 @@ $primary-blue-color: rgba(50, 59, 76);
 
       h3 {
         font-size: 1.7rem;
-        color: rgba(115, 115, 115);
+        color: $primary-grey-color;
       }
     }
   }

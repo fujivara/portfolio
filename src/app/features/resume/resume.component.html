@@ -21,12 +21,7 @@
       <div class="expertise-box">
         <h1>Expertise</h1>
         <hr>
-        <p>&#x2022; JavaScript/TypeScript</p>
-        <p>&#x2022; NodeJs</p>
-        <p>&#x2022; NestJs</p>
-        <p>&#x2022; ExpressJs</p>
-        <p>&#x2022; React</p>
-        <p>&#x2022; Angular</p>
+        <p *ngFor="let expertise of expertise">&#x2022; {{expertise}}</p>
       </div>
       <div class="leng-box">
         <h1>Lengauge</h1>
@@ -39,7 +34,15 @@
       <div class="about-box">
         <h1>Marat <span>Skyba</span></h1>
         <h2>Software engineer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra in lorem at laoreet. Donec hendrerit libero eget est tempor, quis tempus arcu elementum. In elementum elit at dui tristique feugiat. Mauris convallis, mi at mattis malesuada, neque nulla volutpat dolor, hendrerit faucibus eros nibh ut nunc. </p>
+        <p>
+          As a developer I went through a genuinely big amount of different technologies.
+          But at the very end I have come to be a fullstack developer, because it really inspired me
+          by its complexity. I like creating genuinely difficult business logic at the backend
+          and use my frontend knowledge to even enhance the application programming interface,
+          so there is nothing to do with creating really great user interfaces. Also,
+          I like challenges; as a stoic I am getting genuinely inspired by gaining an ability to
+          learn something new.
+        </p>
       </div>
       <div class="experience-box">
         <h2>Experience</h2>
@@ -47,17 +50,19 @@
         <h3 class="experience-box__date">2023 - present</h3>
         <h3 class="experience-box__company">FICE students council</h3>
         <h3 class="experience-box__position">Backend developer</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra in lorem at laoreet. Donec hendrerit libero eget est tempor, quis tempus arcu elementum. In elementum elit at dui tristique feugiat. Mauris convallis, mi at mattis malesuada, neque nulla volutpat dolor, hendrerit faucibus eros nibh ut nunc. Proin luctus urna id nunc sagittis dignissim. Sed in libero sed libero dictum dapibus. Vivamus fermentum est eget lorem aliquet, vel tempus metus dignissim. Donec risus arcu, tristique et sollicitudin blandit, iaculis ut nisl. Integer rutrum ultricies fringilla.</p>
+        <p>
+          I have worked on a project called FictAdvisor. That is a platform for students,
+          where students can manage their schedule, check available coursers and teachers related to them,
+          and a main feature of accessing reviews about teachers from other students as well as placing them.
+          Throughout my developer experience, contributing into FictAdvisor I have gained a lot of
+          crucial skills. I have dived deep into working on a big project with a large team,
+          and it was really inspirational for me to deal with someone else's code, refactoring and improving it.
+        </p>
       </div>
       <div class="soft-skills-box">
         <h2>Soft skills</h2>
         <hr>
-        <h3>&#x2022; Communication</h3>
-        <h3>&#x2022; Multi-tasking</h3>
-        <h3>&#x2022; Adaptability/Flexibility</h3>
-        <h3>&#x2022; Problem-solving</h3>
-        <h3>&#x2022; Time management</h3>
-        <h3>&#x2022; Leadership</h3>
+        <h3 *ngFor="let skill of softSkills">&#x2022; {{skill}}</h3>
       </div>
     </div>
 

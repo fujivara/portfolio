@@ -13,11 +13,6 @@ export class SkillSetComponent {
       description: 'I have an excellent knowledge of an ecosystem and datastructures',
     },
     {
-      name: 'C/C++',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg',
-      description: 'I have an indepth knowledge of creating various datastructures and algorithms with C++',
-    },
-    {
       name: 'NodeJs',
       image: 'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png',
       description: 'I have a solid knowledge of a pure NodeJs ecosystem including good knowledge of asynchronous programming',
@@ -36,6 +31,11 @@ export class SkillSetComponent {
       name: 'Frontend',
       image: 'https://cdn4.iconfinder.com/data/icons/technology-83/1000/app_frontend_end_front_front-end_front_end_development-512.png',
       description: 'I am also known with frontend technologies such as React and Angular. I am always concerned of a great user experience',
+    },
+    {
+      name: 'C/C++',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg',
+      description: 'I have an indepth knowledge of creating various datastructures and algorithms with C++',
     },
   ];
 
