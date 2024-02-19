@@ -72,7 +72,7 @@ $header-height: 6rem;
 .sidenav-container {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -82,7 +82,7 @@ $header-height: 6rem;
 
   mat-sidenav {
     width: 30rem;
-    background-color: rgba(64, 74, 138);
+    background-color: rgba(88, 111, 255, 0.3);
 
     .nav-items {
       width: 100%;
