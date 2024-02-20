@@ -150,6 +150,19 @@ $primary-grey-color: rgba(115, 115, 115);
         margin: 2rem 0 0.3rem 0;
       }
 
+      .source-box {
+        margin-top: 1rem;
+
+        a {
+          padding-right: 1rem;
+          color: black;
+
+          svg {
+            width: 3rem;
+          }
+        }
+      }
+
     }
 
     .edu-box {
