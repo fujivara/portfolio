@@ -13,6 +13,10 @@
 
     &:not(:last-child) {
       margin-right: var(--gutter-horizontal);
+
+      @media only screen and (max-width: 75em) {
+        margin: 0;
+      }
     }
 
     @media only screen and (max-width: 75em) {
