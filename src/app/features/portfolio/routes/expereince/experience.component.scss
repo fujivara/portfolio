@@ -1,5 +1,5 @@
 .experience-section {
-  padding-top: 10%;
+  padding: 10% 0;
   width: 100vw;
 
   @media only screen and (max-width: 56.25em) and (min-height: 62.5em) {
@@ -22,18 +22,7 @@
 .description-box {
   padding: 0 4rem;
 
-  @media only screen and (max-width: 56.25em) {
-    padding-right: 0;
-  }
-
-  @media only screen and (max-width: 37.5em) {
-    margin: 0 auto;
-    padding: 0;
-    width: 85%;
-    text-align: center;
-  }
-
-  @media only screen and (max-width: 68.75em) and (min-height: 62.5em) {
+  @media only screen and (max-width: 75em) {
     margin: 0 auto;
     padding: 0;
     width: 85%;
@@ -78,15 +67,12 @@
 
   @media only screen and (max-width: 75em) {
     width: 45rem;
+    margin: 0 auto;
+    padding-top: 4rem;
   }
 
   @media only screen and (max-width: 56.25em) {
     width: 40rem;
-    padding-top: 4rem;
-  }
-
-  @media only screen and (max-width: 68.75em) and (min-height: 62.5em) {
-    margin: 0 auto;
     padding-top: 4rem;
   }
 
@@ -111,10 +97,6 @@
 
     @media only screen and (max-width: 56.25em) {
       width: 40rem
-    }
-
-    @media only screen and (max-width: 68.75em) and (min-height: 62.5em) {
-      box-shadow: none;
     }
 
     @media only screen and (max-width: 37.5em) {

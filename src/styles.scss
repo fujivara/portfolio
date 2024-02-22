@@ -20,10 +20,11 @@ $profile-theme: mat.define-light-theme((
 @import "styles/components/button";
 @import "styles/layout/grid";
 
-//--big-desktop: 112.5em;     //1800
-//--tab-land: 75em;           //1200px
-//--tab-port: 56.25em;        //900px
-//--phone: 37.5em;            //600px
+//--big-desktop:  112.5em;     //1800px
+//--tab-land:     75em;        //1200px
+//                75em;        //1200px
+//--tab-port:     56.25em;     //900px
+//--phone:        37.5em;      //600px
 
 :root {
   --grid-width: 113rem;

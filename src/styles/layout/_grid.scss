@@ -2,7 +2,7 @@
   max-width: var(--grid-width);
   margin: 0 auto;
 
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 68.75em) {
     width: 100%;
     margin: 0;
   }
@@ -20,58 +20,31 @@
       margin-right: var(--gutter-horizontal);
     }
 
-    @media only screen and (max-width: 68.75em) and (min-height: 68.75em) {
-      float: none;
-    }
-
-    @media only screen and (max-width: 56.25em) and (min-height: 62.5em) {
-      float: none;
-    }
-
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 75em) {
       float: none;
     }
   }
 
   .col-1-of-2 {
     width: calc((100% - #{var(--gutter-horizontal)}) / 2);
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 75em) {
       width: 100%;
       margin-right: 0 !important;
-    }
-    @media only screen and (max-width: 68.75em) and (min-height: 68.75em) {
-      width: 100%;
-    }
-    @media only screen and (max-width: 56.25em) and (min-height: 62.5em) {
-      width: 100%;
     }
   }
 
   .col-1-of-3 {
     width: calc((100% - 2 * #{var(--gutter-horizontal)}) / 3);
-    @media only screen and (max-width: 37.5em) {
-      width: 100%;
-    }
-        @media only screen and (max-width: 68.75em) and (min-height: 68.75em) {
-      width: 100%;
-    }
-    @media only screen and (max-width: 56.25em) and (min-height: 62.5em) {
+    @media only screen and (max-width: 75em) {
       width: 100%;
     }
   }
 
   .col-2-of-3 {
     width: calc(2 * ((100% - 2 * #{var(--gutter-horizontal)}) / 3) + #{var(--gutter-horizontal)});
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 75em) {
       width: 100%;
     }
-        @media only screen and (max-width: 68.75em) and (min-height: 68.75em) {
-      width: 100%;
-    }
-    @media only screen and (max-width: 56.25em) and (min-height: 62.5em) {
-      width: 100%;
-    }
-
   }
 
   .col-1-of-4 {
